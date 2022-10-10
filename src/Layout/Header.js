@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, } from 'react-router-dom';
 
+
 const Header = () => {
 
     return (
@@ -15,9 +16,8 @@ const Header = () => {
                     <Link className='p-6 font-2xl' to="/blog">Blog</Link>
                 </div>
             </div>
-            <div>
-                <p>Lorem200</p>
-            </div>
+
+
         </div>
     );
 };

@@ -7,6 +7,7 @@ import Statistics from './Layout/Statistics';
 import Blog from './Components/Blog/Blog';
 
 
+
 function App() {
   const router = createBrowserRouter([
     {
@@ -22,13 +23,16 @@ function App() {
         { path: '/blog', element: <Blog></Blog> }
       ],
       element: <Main></Main>
-    }
+    },
   ])
+
+
 
 
   return (
     <div className="App">
-      <RouterProvider router={router}></RouterProvider>
+
+      <RouterProvider router={router}> </RouterProvider>
     </div>
   );
 }
