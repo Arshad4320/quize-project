@@ -1,0 +1,9 @@
+.blog-question {
+    box-shadow: 5px 7px 12px -7px;
+}
+
+.blog-question p {
+    text-align: justify;
+    font-size: 21px;
+
+}
