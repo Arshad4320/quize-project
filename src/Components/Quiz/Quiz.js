@@ -10,7 +10,7 @@ const Quiz = () => {
 
     return (
         <div>
-            <div className='grid justify-center bg-yellow-200 rounded-lg mx-10 m-6 p-6 '>
+            <div className='grid justify-center bg-yellow-100 rounded-lg mx-10 m-6 p-6 '>
                 <h3 className='text-pink-900 font-semibold text-4xl  grid align-center'>{name}</h3>
             </div>
             {
