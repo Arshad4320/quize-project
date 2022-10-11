@@ -5,7 +5,7 @@ import pic from '../../img/pic.jpg'
 
 const Topics = () => {
     const topics = useLoaderData();
-    console.log(topics)
+
 
     return (
 
