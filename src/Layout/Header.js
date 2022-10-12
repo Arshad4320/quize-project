@@ -6,11 +6,11 @@ const Header = () => {
 
     return (
         <div>
-            <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-cols-2 bg-teal-500'>
+            <div className='grid grid-cols-2 bg-teal-500'>
                 <div className="lugo">
-                    <h2>Lugo</h2>
+                    <h2 className='font-extrabold mt-3   md:text-2xl sm:text-xl lg:text-3xl text-red-900'>WebTesty</h2>
                 </div>
-                <div className='text-xl p-4 font-semibold'>
+                <div className='text-xl p-4 font-semibold text-red-900'>
                     <Link className='p-6 font-2xl' to="/topics">Topics</Link>
                     <Link className='p-6 font-2xl' to="/statistics">Statistics</Link>
                     <Link className='p-6 font-2xl' to="/blog">Blog</Link>

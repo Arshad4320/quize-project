@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import QuizData from '../QuizData/QuizData';
+import OPtions from './../Options/OPtions';
 
 
 
