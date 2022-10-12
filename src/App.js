@@ -14,12 +14,21 @@ function App() {
   const router = createBrowserRouter([
     {
       path: '/',
+      element: <Main></Main>,
       children: [
-        { path: '/', element: <Topics></Topics> },
         {
-          path: '/topics', loader: () => {
+          path: '/',
+          loader: () => {
             return fetch('https://openapi.programming-hero.com/api/quiz')
-          }, element: <Topics></Topics>
+          },
+          element: <Topics></Topics>
+        },
+        {
+          path: '/topics',
+          loader: () => {
+            return fetch('https://openapi.programming-hero.com/api/quiz')
+          },
+          element: <Topics></Topics>
         },
         { path: '/statistics', element: <Statistics></Statistics> },
         { path: '/blog', element: <Blog></Blog> },
@@ -29,7 +38,6 @@ function App() {
           }, element: <Quiz></Quiz>
         }
       ],
-      element: <Main></Main>
     },
     { path: '*', element: <Error></Error> }
   ])

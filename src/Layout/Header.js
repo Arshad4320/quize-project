@@ -51,7 +51,7 @@ const Header = () => {
                     <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"}`}>
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-xl p-4 font-semibold text-red-900 hover:text-blue-900">
-                                <Link className='p-6 font-2xl` ' to="/topics">Topics</Link>
+                                <Link className='p-6 font-2xl` ' to="/">Topics</Link>
                             </li>
                             <li className="text-xl p-4 font-semibold text-red-900 hover:text-blue-900">
                                 <Link className='p-6 font-2xl` ' to="/statistics">Statistics</Link>
